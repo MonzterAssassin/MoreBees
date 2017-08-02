@@ -109,7 +109,7 @@ public enum BeeBranches implements IBranchDefinition
 			AlleleHelper.getInstance().set(alleles, EnumBeeChromosome.EFFECT, AlleleEffects.effectIgnition);
 		}
 	},
-	AQUATIC("Aqus") 
+	OCEANIC("Aqus") 
 	{
 		@Override
 		protected void setBranchProperties(IAllele[] alleles) 
