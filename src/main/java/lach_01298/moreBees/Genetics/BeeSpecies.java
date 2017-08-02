@@ -1110,8 +1110,8 @@ public enum BeeSpecies implements IBeeDefinition
 
 		}
 	},
-	// Aquatic branch
-	PRISMARINE(BeeBranches.AQUATIC, "Prismarine", true, new Color(0x63ab9d), new Color(0xffdc16))
+	// Oceanic branch -- Changed from Aquatic -> Oceanic to accommodate new Forestry Aquatic bee(?). Not too familiar with forestry framework though so this may not work.
+	PRISMARINE(BeeBranches.OCEANIC, "Prismarine", true, new Color(0x63ab9d), new Color(0xffdc16))
 	{
 		@Override
 		protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies)
